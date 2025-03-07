@@ -1,0 +1,80 @@
+
+.header {
+	@apply flex items-center pt-[80px] pb-[42px] px-[30px]  mx-auto w-[1250px];
+}
+
+.headerBlock2 {
+  @apply ml-[82px] font-light text-[12px];
+}
+
+.headerBlock3 {
+	@apply flex flex-col ml-auto;
+}
+
+.navbar {
+	@apply bg-[#396AB6] flex mt-[37px] mb-[37px] justify-center pt-[21px] pb-[21px] rounded-[7px];
+}
+
+.navbar ul {
+	@apply list-none;
+}
+
+.navbar li {
+	@apply inline-block mx-[30px];
+}
+
+.navbar li a {
+	@apply no-underline font-bold text-[14px] text-[#FFFF] uppercase;
+}
+
+.navbar li a:hover {
+	@apply underline;
+}
+
+.mainBlockBg {
+	@apply bg-[url('/phone-main-block.jpg')] bg-no-repeat bg-cover bg-center h-[756px] relative mb-[56px];
+}
+
+.textBlockMainBlock {
+	@apply bg-[#FFFFFF] flex items-center w-[920px] h-auto rounded-[14px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+}
+
+.linkMainBlock {
+	@apply font-medium text-[24px] leading-[28px] text-[#14448E] mt-[66px] inline-block;
+}
+
+
+.linkMainBlock:hover {
+	@apply underline;
+}
+
+.btnTextBlockMainBlock {
+	@apply font-semibold text-[18px] leading-tight text-[#FFFFFF] bg-[url(/iconka-main-block.png)] bg-no-repeat bg-left pl-[30px] py-1;
+}
+
+.textBlockDescription {
+	@apply font-normal text-[14px] leading-[28px] mt-[28px];
+}
+.card {
+	@apply flex flex-col items-center bg-[#FEFEFF] rounded-[14px] w-[430px] py-[50px] ;
+}
+
+.blockImgCard {
+	@apply w-[136px] h-[140px];
+}
+
+.imgCard {
+	@apply w-full h-full object-cover;
+}
+
+.mainTextCard {
+	@apply font-bold text-[22px] leading-[18px] mt-[31px];
+}
+
+.textCard {
+	@apply font-light text-[14px] leading-[24px] mt-[20px] w-[335px] text-center;
+}
+
+.bntCard {
+	@apply font-bold text-[16px] leading-[18px] mt-[35px] bg-[#FF3324] py-[15px] px-[30px] text-[#FFFFFF] rounded-[3px];
+}
